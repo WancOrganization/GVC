@@ -17578,7 +17578,7 @@ div.icon-box:before {
 /* ----------------------------------------------------------------
     Featured Boxes
 -----------------------------------------------------------------*/
-.feature-box {
+/* .feature-box {
     background-color: #fff;
     margin-bottom: 0px;
     padding: 44px;
@@ -17589,7 +17589,7 @@ div.icon-box:before {
     transition: all 0.55s ease;
     text-align: center;
     min-height: 250px;
-}
+} */
 
 .feature-box.feature-box-transparent {
     background-color: transparent;
@@ -17615,7 +17615,7 @@ div.icon-box:before {
 .feature-box:hover h2,
 .feature-box:hover h3,
 .feature-box:hover h4 {
-    color: #c31e2f;
+    /* color: #c31e2f; */
 }
 
 .feature-box h2,

@@ -102,20 +102,39 @@
         border: 2px solid transparent;
     }
 
+    .blue-box {
+        border-color: #3e63b3;
+        border-radius: 15px;
+    }
+
     .blue-box:hover {
         border-radius: 20px;
-        border-color: #3e63b3;
+        background: #3e63b3;
+        color: #fff;
         box-shadow: 0 30px 30px rgba(62, 99, 179, 0.1);
+    }
+
+    .yellow-box {
+        border-color: #fbca01;
+        border-radius: 15px;
     }
 
     .yellow-box:hover {
         border-radius: 20px;
-        border-color: #fbca01;
+        background: #fbca01;
+        color: #fff;
         box-shadow: 0 30px 30px rgba(62, 99, 179, 0.1);
+    }
+
+    .red-box {
+        border-color: #dd4726;
+        border-radius: 15px;
     }
 
     .red-box:hover {
         border-radius: 20px;
+        background: #dd4726;
+        color: #fff;
         border-color: #dd4726;
         box-shadow: 0 30px 30px rgba(62, 99, 179, 0.1);
     }
@@ -287,11 +306,11 @@
                                     class="img-fluid" style="width: 60px; filter: brightness(0) invert(1);">
                             </div>
                         </div>
-                        <h4 class="fw-bold mb-3 fs-4" style="color: #3e63b3;">Quality Policy</h4>
-                        <p class="mb-0" style="color: #64748b;">
+                        <h4 class="fw-bold mb-3 fs-4">Quality Policy</h4>
+                        <span class="mb-0" style="font-family: Poppins;">
                             Commitment to excellence through integrated management systems, continuous improvement, and
                             compliance with international standards for superior product quality and customer satisfaction.
-                        </p>
+                        </span>
                     </div>
                 </div>
 
@@ -305,11 +324,11 @@
                                     style="width: 60px; filter: brightness(0) invert(1);">
                             </div>
                         </div>
-                        <h4 class="fw-bold mb-3 fs-4" style="color: #fbca01;">Industries We Serve</h4>
-                        <p class="mb-0" style="color: #64748b;">
+                        <h4 class="fw-bold mb-3 fs-4">Industries We Serve</h4>
+                        <span class="mb-0" style="font-family: Poppins;">
                             Providing solutions for oil & gas, petrochemical, power generation, water treatment,
                             pharmaceuticals, and manufacturing industries with reliable valve systems.
-                        </p>
+                        </span>
                     </div>
                 </div>
 
@@ -323,11 +342,11 @@
                                     style="width: 60px; filter: brightness(0) invert(1);">
                             </div>
                         </div>
-                        <h4 class="fw-bold mb-3 fs-4" style="color: #dd4726;">Why GVC?</h4>
-                        <p class="mb-0" style="color: #64748b;">
-                            3+ decades of expertise, advanced manufacturing facilities, a skilled engineering team, and a
+                        <h4 class="fw-bold mb-3 fs-4">Why GVC?</h4>
+                        <span class="mb-0" style="font-family: Poppins;">
+                            2+ decades of expertise, advanced manufacturing facilities, a skilled engineering team, and a
                             commitment to innovation, quality, and customer-centric solutions that drive excellence.
-                        </p>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -401,7 +420,7 @@
                                 <div class="text-center mt-4 pt-3" style="border-top: 1px dashed #e2e8f0;">
                                     <div class="badge px-4 py-2 fw-bold"
                                         style="background: linear-gradient(135deg, #fbca01, #f8b500); color: #2d3748; font-size: 1rem; border-radius: 50px;">
-                                        3+ Decades of Excellence
+                                        2+ Decades of Excellence
                                     </div>
                                 </div>
                             </div>
@@ -545,7 +564,7 @@
     </section>
 
     <!-- Products Section -->
-    <section class="py-5" style="background:#f4f6fb;">
+    {{-- <section class="py-5" style="background:#f4f6fb;">
         <div class="container">
             <h2 class="text-center fw-bold mb-5" style="color:#3e62b3;">OUR PRODUCTS</h2>
 
@@ -697,9 +716,422 @@
 
             </div>
         </div>
+    </section> --}}
+
+    <!-- Products Section - Classic Redesign -->
+    <!-- Premium Products Section -->
+    <section class="py-5 position-relative" style="background: linear-gradient(135deg, #f4f6fb 0%, #f8f9fa 100%);">
+        <!-- Background Pattern -->
+        {{-- <div class="position-absolute top-0 start-0 w-100 h-100 opacity-3">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+                        <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#3e62b3" stroke-width="0.5" />
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+            </svg>
+        </div> --}}
+
+        <div class="container position-relative z-1">
+            <!-- Section Header with Decorative Elements -->
+            <div class="text-center mb-5 pb-3 position-relative">
+                <div class="mb-4">
+                    <div class="d-inline-block position-relative">
+                        <span class="display-6 fw-bold text-dark"
+                            style="letter-spacing: 2px; position: relative; z-index: 2;">
+                            <span style="color: #3e62b3;">OUR</span> <span style="color: #dd4726;">PRODUCTS</span>
+                        </span>
+                        <div class="position-absolute start-50 translate-middle-x"
+                            style="top: -15px; width: 100px; height: 100px; background: radial-gradient(circle, rgba(249,201,1,0.1) 0%, transparent 70%); z-index: 1;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="lead text-dark opacity-75 mb-4" style="font-size: 1.1rem; line-height: 1.8;">
+                            Precision-engineered industrial valves designed for exceptional performance,
+                            durability, and reliability in the most demanding applications.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Decorative Separator -->
+                <div class="d-flex justify-content-center align-items-center mt-4">
+                    <div style="width: 40px; height: 3px; background: #f9c901; margin-right: 15px;"></div>
+                    <div style="width: 20px; height: 20px; border: 2px solid #3e62b3; transform: rotate(45deg);"></div>
+                    <div style="width: 40px; height: 3px; background: #dd4726; margin-left: 15px;"></div>
+                </div>
+            </div>
+
+            <!-- Product Cards -->
+            <div class="row g-4">
+                <style>
+                    /* Premium Card Styling */
+                    .product-card-premium {
+                        background: #ffffff;
+                        border-radius: 16px;
+                        overflow: hidden;
+                        position: relative;
+                        transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+                        height: 100%;
+                        border: 1px solid rgba(255, 255, 255, 0.8);
+                        backdrop-filter: blur(10px);
+                    }
+
+                    .product-card-premium::before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        height: 4px;
+                        background: linear-gradient(90deg, #3e62b3, #f9c901, #dd4726);
+                        z-index: 2;
+                    }
+
+                    .product-card-premium::after {
+                        content: '';
+                        position: absolute;
+                        inset: 0;
+                        border-radius: 16px;
+                        padding: 1px;
+                        background: linear-gradient(135deg, rgba(62, 98, 179, 0.1), rgba(255, 255, 255, 0.1));
+                        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+                        mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+                        -webkit-mask-composite: xor;
+                        mask-composite: exclude;
+                        pointer-events: none;
+                    }
+
+                    .product-card-premium:hover {
+                        transform: translateY(-12px);
+                        box-shadow: 0 20px 40px rgba(62, 98, 179, 0.15);
+                    }
+
+                    /* Image Container */
+                    .product-img-premium {
+                        padding: 30px 20px;
+                        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+                        position: relative;
+                        overflow: hidden;
+                        min-height: 260px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .product-img-premium::before {
+                        content: '';
+                        position: absolute;
+                        width: 200px;
+                        height: 200px;
+                        background: radial-gradient(circle, rgba(62, 98, 179, 0.05) 0%, transparent 70%);
+                        top: -100px;
+                        right: -100px;
+                    }
+
+                    .product-img-premium img {
+                        max-height: 180px;
+                        object-fit: contain;
+                        transition: transform 0.7s ease;
+                        filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+                        position: relative;
+                        z-index: 1;
+                    }
+
+                    .product-card-premium:hover .product-img-premium img {
+                        transform: scale(1.08) rotate(2deg);
+                    }
+
+                    /* Product Badge */
+                    .product-badge {
+                        position: absolute;
+                        top: 20px;
+                        left: 20px;
+                        background: #dd4726;
+                        color: white;
+                        padding: 6px 15px;
+                        border-radius: 20px;
+                        font-size: 0.75rem;
+                        font-weight: 700;
+                        letter-spacing: 0.5px;
+                        text-transform: uppercase;
+                        z-index: 3;
+                        box-shadow: 0 4px 10px rgba(221, 71, 38, 0.3);
+                    }
+
+                    /* Product Info */
+                    .product-info-premium {
+                        padding: 25px;
+                        position: relative;
+                    }
+
+                    .product-title-premium {
+                        color: #1e293b;
+                        font-weight: 700;
+                        font-size: 1.3rem;
+                        margin-bottom: 15px;
+                        line-height: 1.4;
+                        position: relative;
+                        padding-bottom: 15px;
+                    }
+
+                    .product-title-premium::after {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 50px;
+                        height: 2px;
+                        background: linear-gradient(90deg, #3e62b3, #f9c901);
+                    }
+
+                    .product-desc-premium {
+                        color: #64748b;
+                        font-size: 0.95rem;
+                        line-height: 1.7;
+                        margin-bottom: 25px;
+                        font-weight: 400;
+                    }
+
+                    /* Features List */
+                    .product-features {
+                        list-style: none;
+                        padding: 0;
+                        margin-bottom: 25px;
+                    }
+
+                    .product-features li {
+                        color: #475569;
+                        font-size: 0.9rem;
+                        margin-bottom: 8px;
+                        padding-left: 22px;
+                        position: relative;
+                    }
+
+                    .product-features li::before {
+                        content: '✓';
+                        position: absolute;
+                        left: 0;
+                        color: #f9c901;
+                        font-weight: bold;
+                        background: rgba(249, 201, 1, 0.1);
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 0.8rem;
+                    }
+
+                    /* Premium Button */
+                    .product-btn-premium {
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: linear-gradient(135deg, #3e62b3 0%, #2a4a8f 100%);
+                        color: white;
+                        padding: 12px 28px;
+                        border-radius: 50px;
+                        font-weight: 600;
+                        font-size: 0.95rem;
+                        letter-spacing: 0.5px;
+                        border: none;
+                        transition: all 0.4s ease;
+                        position: relative;
+                        overflow: hidden;
+                        text-decoration: none;
+                        min-width: 180px;
+                        box-shadow: 0 5px 15px rgba(62, 98, 179, 0.2);
+                    }
+
+                    .product-btn-premium::before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+                        transition: left 0.7s ease;
+                    }
+
+                    .product-btn-premium:hover {
+                        transform: translateY(-3px);
+                        box-shadow: 0 8px 20px rgba(62, 98, 179, 0.3);
+                        color: white;
+                    }
+
+                    .product-btn-premium:hover::before {
+                        left: 100%;
+                    }
+
+                    .product-btn-premium i {
+                        margin-left: 10px;
+                        transition: transform 0.3s ease;
+                    }
+
+                    .product-btn-premium:hover i {
+                        transform: translateX(5px);
+                    }
+
+                    /* Stats Badge */
+                    .product-stats {
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                        background: rgba(255, 255, 255, 0.9);
+                        backdrop-filter: blur(5px);
+                        padding: 8px 12px;
+                        border-radius: 12px;
+                        font-size: 0.8rem;
+                        font-weight: 700;
+                        color: #3e62b3;
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+                        z-index: 3;
+                        border: 1px solid rgba(62, 98, 179, 0.1);
+                    }
+
+                    /* Responsive Adjustments */
+                    @media (max-width: 992px) {
+                        .product-img-premium {
+                            min-height: 220px;
+                        }
+
+                        .product-img-premium img {
+                            max-height: 150px;
+                        }
+                    }
+                </style>
+
+                <!-- Butterfly Valve -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card-premium">
+                        <span class="product-badge">Featured</span>
+                        <div class="product-img-premium">
+                            <span class="product-stats">ISO 9001</span>
+                            <img src="{{ asset('Asset/images/anzox/ButterflyValveHme.png') }}" alt="Butterfly Valve">
+                        </div>
+                        <div class="product-info-premium">
+                            <h4 class="product-title-premium">Butterfly Valve</h4>
+                            <p class="product-desc-premium">
+                                High-performance quarter-turn valves offering precise flow control with bubble-tight
+                                shut-off for industrial applications.
+                            </p>
+
+                            <ul class="product-features">
+                                <li>Bubble-tight shut-off</li>
+                                <li>Precise flow control</li>
+                                <li>Low maintenance design</li>
+                            </ul>
+
+                            <div class="text-center">
+                                <a href="/butterfly-valve" class="product-btn-premium">
+                                    View Details <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ball Valve -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card-premium">
+                        <span class="product-badge" style="background: #3e62b3;">Popular</span>
+                        <div class="product-img-premium">
+                            <span class="product-stats">API 6D</span>
+                            <img src="{{ asset('Asset/images/anzox/ballvalve7.jpg') }}" alt="Ball Valve">
+                        </div>
+                        <div class="product-info-premium">
+                            <h4 class="product-title-premium">Ball Valve</h4>
+                            <p class="product-desc-premium">
+                                Reliable quarter-turn valves with rotating ball mechanism for excellent shut-off
+                                capabilities and minimal pressure drop.
+                            </p>
+
+                            <ul class="product-features">
+                                <li>Full bore design</li>
+                                <li>Fire-safe rated</li>
+                                <li>Multi-port options</li>
+                            </ul>
+
+                            <div class="text-center">
+                                <a href="/ball-valve" class="product-btn-premium">
+                                    View Details <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gate Globe & Check Valve -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card-premium">
+                        <span class="product-badge" style="background: #f9c901; color: #3e62b3;">Premium</span>
+                        <div class="product-img-premium">
+                            <span class="product-stats">API 602</span>
+                            <img src="{{ asset('Asset/images/anzox/gateglobevalve.jpg') }}"
+                                alt="Gate Globe & Check Valve">
+                        </div>
+                        <div class="product-info-premium">
+                            <h4 class="product-title-premium">Gate, Globe & Check Valves</h4>
+                            <p class="product-desc-premium">
+                                High-pressure valves designed for extreme conditions with API602 / ISO 15761 compliance for
+                                critical applications.
+                            </p>
+
+                            <ul class="product-features">
+                                <li>High-pressure rated</li>
+                                <li>Corrosion resistant</li>
+                                <li>Extended service life</li>
+                            </ul>
+
+                            <div class="text-center">
+                                <a href="/gate-globe-check-valve" class="product-btn-premium">
+                                    View Details <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plug Valve -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card-premium">
+                        <span class="product-badge"
+                            style="background: linear-gradient(135deg, #3e62b3, #dd4726);">Industrial</span>
+                        <div class="product-img-premium">
+                            <span class="product-stats">ISO 15761</span>
+                            <img src="{{ asset('Asset/images/anzox/plugvalve.jpg') }}" alt="Plug Valve">
+                        </div>
+                        <div class="product-info-premium">
+                            <h4 class="product-title-premium">Plug Valve</h4>
+                            <p class="product-desc-premium">
+                                Precision-engineered valves with tapered plug design ensuring reliable sealing for abrasive
+                                and corrosive media.
+                            </p>
+
+                            <ul class="product-features">
+                                <li>Self-lubricating design</li>
+                                <li>Abrasion resistant</li>
+                                <li>Quarter-turn operation</li>
+                            </ul>
+
+                            <div class="text-center">
+                                <a href="/plug-valve" class="product-btn-premium">
+                                    View Details <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-
-
 
     <!-- Contact Section -->
     <section class="py-5" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);">
