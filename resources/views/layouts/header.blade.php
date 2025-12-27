@@ -6,10 +6,10 @@
                 <a href="/">
                     <span class="logo-default align-content-center">
                         <img class="pb-1 pt-3" src="{{ asset('Asset/images/anzox/GVAC_Logo.png') }}" alt=""
-                            width="90px"></span>
+                            width="100px"></span>
 
                     <span class="logo-dark"> <img src="{{ asset('Asset/images/anzox/GVAC_Logo.png') }}" alt=""
-                            width="110px"></span>
+                            width="100px"></span>
                 </a>
             </div>
             <div id="mainMenu-trigger">
