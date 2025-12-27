@@ -6,9 +6,9 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="GVAC (OPC) Pvt. Ltd. PVT. LTD." />
     <meta name="description" content="GVAC (OPC) Pvt. Ltd. PVT. LTD.">
-    <link rel="icon" type="image/png" href="{{ asset('Asset/images/anzox/GVC_logo.jpeg') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('Asset/images/anzox/GVAC_Logo.png') }}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>GVC</title>
+    <title>GVAC</title>
     <link href="{{ asset('Asset/css/plugins.css') }}" rel="stylesheet">
     <link href="{{ asset('Asset/css/style.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
