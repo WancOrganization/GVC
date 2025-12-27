@@ -236,12 +236,12 @@
                 <div class="col-lg-8">
                     <div class="pe-lg-4">
                         <h2 class="section-title fw-bold" style="color: #3e63b3;">
-                            About Galaxy Valves & Controls
+                            About GVAC (OPC) Pvt. Ltd.
                         </h2>
                         <div class="row" style="font-family: 'Montserrat', sans-serif;">
                             <div class="col-12 mb-4">
                                 <p class="lead" style="color: #4a5568; line-height: 1.7;">
-                                    Galaxy Valves & Controls is a prominent manufacturer and supplier of industrial valves
+                                    GVAC (OPC) Pvt. Ltd. is a prominent manufacturer and supplier of industrial valves
                                     in India. We provide a wide-ranging portfolio of manual and actuated (pneumatic and
                                     electric) valves, including double-offset, triple-offset, and rubber-seated butterfly
                                     valves; floating and trunnion-mounted ball valves in both soft and metal-seated options;
@@ -279,7 +279,7 @@
                 <div class="col-lg-4">
                     <div class="text-center position-relative">
                         <div class="p-4 rounded-4">
-                            <img src="{{ asset('Asset/images/anzox/GVC-Logo.png') }}" alt="GVC Logo" class="img-fluid"
+                            <img src="{{ asset('Asset/images/anzox/GVAC_Logo.png') }}" alt="GVAC Logo" class="img-fluid"
                                 style="width: auto; max-height: 250px;">
                         </div>
                     </div>
@@ -292,7 +292,7 @@
     <section class="py-5">
         <div class="container">
             <h2 class="section-title text-center fw-bold" style="color: #3e63b3;">
-                Why Choose Galaxy Valves
+                Why Choose GVAC (OPC) Pvt. Ltd.
             </h2>
 
             <div class="row g-4">
@@ -332,17 +332,17 @@
                     </div>
                 </div>
 
-                <!-- Why GVC -->
+                <!-- Why GVAC -->
                 <div class="col-md-4">
                     <div class="feature-box red-box text-center">
                         <div class="mb-4">
                             <div class="d-inline-block p-3 rounded-circle"
                                 style="background: linear-gradient(135deg, #dd4726, #c13c1f);">
-                                <img src="{{ asset('Asset/images/Icon/why.png') }}" alt="Why GVC" class="img-fluid"
+                                <img src="{{ asset('Asset/images/Icon/why.png') }}" alt="Why GVAC" class="img-fluid"
                                     style="width: 60px; filter: brightness(0) invert(1);">
                             </div>
                         </div>
-                        <h4 class="fw-bold mb-3 fs-4">Why GVC?</h4>
+                        <h4 class="fw-bold mb-3 fs-4">Why GVAC?</h4>
                         <span class="mb-0" style="font-family: Poppins;">
                             2+ decades of expertise, advanced manufacturing facilities, a skilled engineering team, and a
                             commitment to innovation, quality, and customer-centric solutions that drive excellence.
@@ -358,7 +358,7 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h1 class="fw-bold display-5" style="color: #3e63b3;">
-                    GALAXY VALVES & CONTROLS
+                    GVAC (OPC) Pvt. Ltd.
                     <span
                         style="display: block; width: 80px; height: 4px; background: linear-gradient(90deg, #3e63b3, #fbca01); margin: 15px auto 0; border-radius: 2px;"></span>
                 </h1>
@@ -1037,7 +1037,7 @@
                     </h3>
                     <div class="d-flex align-items-center justify-content-center">
                         <div class="border-start border-3 border-fbca01 ps-3">
-                            <p class="text-white mb-0 fw-semibold">Galaxy Valves & Controls Team</p>
+                            <p class="text-white mb-0 fw-semibold">GVAC (OPC) Pvt. Ltd. Team</p>
                             <p class="text-white opacity-75 mb-0" style="font-size: 0.9rem;">Manufacturing Excellence</p>
                         </div>
                     </div>

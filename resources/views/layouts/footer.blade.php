@@ -5,8 +5,8 @@
                 <div class="col-lg-5">
                     <div class="widget">
                         <div class="widget-title">
-                            <img src="{{ asset('Asset/images/anzox/GVC-Logo.png') }}" alt="" width="150px">
-                            <h3 class="pt-4" style="font-family: Verdana;">GALAXY VALVES & CONTROLS Pvt. Ltd.</h3>
+                            <img src="{{ asset('Asset/images/anzox/GVAC_Logo.png') }}" alt="" width="150px">
+                            <h3 class="pt-4" style="font-family: Verdana;">GVAC (OPC) Pvt. Ltd. Pvt. Ltd.</h3>
                         </div>
                         <p class="mb-5" style="font-family: montserrat; color:#365aa3">
                             Muktanand Apt, A-501, Near Karthika High School, New Hall Road, Kurla (W), Mumbai - 400070<br> <br>

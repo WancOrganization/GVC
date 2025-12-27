@@ -4,8 +4,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="GALAXY VALVES & CONTROLS PVT. LTD." />
-    <meta name="description" content="GALAXY VALVES & CONTROLS PVT. LTD.">
+    <meta name="author" content="GVAC (OPC) Pvt. Ltd. PVT. LTD." />
+    <meta name="description" content="GVAC (OPC) Pvt. Ltd. PVT. LTD.">
     <link rel="icon" type="image/png" href="{{ asset('Asset/images/anzox/GVC_logo.jpeg') }}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>GVC</title>
