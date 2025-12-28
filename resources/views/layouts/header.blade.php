@@ -48,7 +48,7 @@
                         <!--Right Menu-->
                         <ul class="justify-content-center">
                             <li><a href="/facilities" style="text-decoration: none">OUR FACILITIES</a></li>
-                            <li><a href="{{ asset('Asset/pdf/GVCCatalogue.pdf') }}" download="GVCCatalogue"
+                            <li><a href="{{ asset('Asset/pdf/GVCCatalogue.pdf') }}" download="GVAC_Catalogue"
                                     style="text-decoration: none">OUR CATALOGUE</a></li>
                             <li><a href="/#contact-us" style="text-decoration: none">CONTACT US</a></li>
                         </ul>
