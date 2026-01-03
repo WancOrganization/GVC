@@ -37,7 +37,7 @@
                             <div class="widget">
                                 <div class="widget-title" style="font-family: Verdana;">FOLLOW US ON</div>
                                 <ul class="list text-primary" style="font-family: montserrat;">
-                                    <li class="social-facebook"><a style="text-decoration: none; color:#365aa3" href=""><i
+                                    <li class="social-facebook"><a style="text-decoration: none; color:#365aa3" target="_blank" href="https://www.facebook.com/gvacprivatelimited/?rdid=czOosw8uFJT9Dx6v"><i
                                                 class="fab fa-facebook m-2"> </i>FACEBOOK</a></li>
                                     <li class="social-instagram"><a style="text-decoration: none; color:#365aa3" href=""><i
                                                 class="fab fa-instagram m-2"></i>INSTAGRAM</a></li>
@@ -50,7 +50,7 @@
                             <div class="widget">
                                 <div class="widget-title" style="font-family: Verdana;">OUR CONTACTS</div>
                                 <ul class="list text-primary">
-                                    <li class="social-facebook"><a style="text-decoration: none; color:#365aa3      " href=""><i
+                                    <li class="social-facebook"><a style="text-decoration: none; color:#365aa3" href=""><i
                                                 class="fa fa-phone m-2"> </i>+91 98334 75554</a></li>
                                                 {{-- <li class="social-instagram"><a style="text-decoration: none; color:#365aa3     " href=""><i
                                                 class="fa fa-envelope  m-2"></i>spacevalves25@gmail.com</a></li> --}}
