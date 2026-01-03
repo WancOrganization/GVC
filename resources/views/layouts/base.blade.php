@@ -8,7 +8,7 @@
     <meta name="description" content="GVAC (OPC) Pvt. Ltd. PVT. LTD.">
     <link rel="icon" type="image/png" href="{{ asset('Asset/images/anzox/favicon.png') }}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>GVAC</title>
+    <title>GVAC (OPC) Pvt. Ltd. PVT. LTD.</title>
     <link href="{{ asset('Asset/css/plugins.css') }}" rel="stylesheet">
     <link href="{{ asset('Asset/css/style.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +21,10 @@
 <body>
     <div class="body-inner">
         <style>
+
+            html{
+                scroll-behavior: smooth;
+            }
             .line {
 
                 margin: 0 0 50px 0;

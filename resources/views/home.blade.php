@@ -230,7 +230,7 @@
     <!--end: Inspiro Slider -->
 
     <!-- About Section -->
-    <section class="py-5" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);">
+    <section id="about" class="py-5" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
@@ -966,7 +966,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="py-5" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);">
+    <section id="contact-us" class="py-5" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);">
         <div class="container">
             <h2 class="section-title text-center fw-bold" style="color:#3e63b3;">Get In Touch</h2>
 
