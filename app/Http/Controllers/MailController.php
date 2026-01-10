@@ -11,7 +11,7 @@ class MailController extends Controller
     //
     public function sendMail(Request $request)
     {
-        $to = "support@spacevalvescontrols.com";
+        $to = "support@gvac.in";
         $email = $request->email;
         $contact = $request->contact;
         $subject = $request->subject;
