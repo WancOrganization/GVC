@@ -236,12 +236,12 @@
                 <div class="col-lg-8">
                     <div class="pe-lg-4">
                         <h2 class="section-title fw-bold" style="color: #3e63b3;">
-                            About GVAC (OPC) Pvt. Ltd.
+                            About GVAC (OPC) Private Limited
                         </h2>
                         <div class="row" style="font-family: 'Montserrat', sans-serif;">
                             <div class="col-12 mb-4">
                                 <p class="lead" style="color: #4a5568; line-height: 1.7;">
-                                    GVAC (OPC) Pvt. Ltd. is a prominent manufacturer and supplier of industrial valves
+                                    GVAC (OPC) Private Limited is a prominent manufacturer and supplier of industrial valves
                                     in India. We provide a wide-ranging portfolio of manual and actuated (pneumatic and
                                     electric) valves, including double-offset, triple-offset, and rubber-seated butterfly
                                     valves; floating and trunnion-mounted ball valves in both soft and metal-seated options;
@@ -292,7 +292,7 @@
     <section class="py-5">
         <div class="container">
             <h2 class="section-title text-center fw-bold" style="color: #3e63b3;">
-                Why Choose GVAC (OPC) Pvt. Ltd.
+                Why Choose GVAC (OPC) Private Limited
             </h2>
 
             <div class="row g-4">
@@ -358,7 +358,7 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h1 class="fw-bold display-5" style="color: #3e63b3;">
-                    GVAC (OPC) Pvt. Ltd.
+                    GVAC (OPC) Private Limited
                     <span
                         style="display: block; width: 80px; height: 4px; background: linear-gradient(90deg, #3e63b3, #fbca01); margin: 15px auto 0; border-radius: 2px;"></span>
                 </h1>
@@ -1037,7 +1037,7 @@
                     </h3>
                     <div class="d-flex align-items-center justify-content-center">
                         <div class="border-start border-3 border-fbca01 ps-3">
-                            <p class="text-white mb-0 fw-semibold">GVAC (OPC) Pvt. Ltd. Team</p>
+                            <p class="text-white mb-0 fw-semibold">GVAC (OPC) Private Limited Team</p>
                             <p class="text-white opacity-75 mb-0" style="font-size: 0.9rem;">Manufacturing Excellence</p>
                         </div>
                     </div>
