@@ -37,11 +37,11 @@
                             <div class="widget">
                                 <div class="widget-title" style="font-family: Verdana;">FOLLOW US ON</div>
                                 <ul class="list text-primary" style="font-family: montserrat;">
-                                    <li class="social-facebook"><a style="text-decoration: none; color:#365aa3" target="_blank" href="https://www.facebook.com/gvacprivatelimited/?rdid=czOosw8uFJT9Dx6v"><i
+                                    <li class="social-facebook"><a style="text-decoration: none; color:#365aa3" target="_blank" href="www.linkedin.com/in/gvac-opc-private-limited-5617983a8"><i
                                                 class="fab fa-facebook m-2"> </i>FACEBOOK</a></li>
-                                    <li class="social-instagram"><a style="text-decoration: none; color:#365aa3" href=""><i
+                                    <li class="social-instagram"><a style="text-decoration: none; color:#365aa3" href="https://www.facebook.com/share/1861SB12vt/?mibextid=wwXIfr"><i
                                                 class="fab fa-instagram m-2"></i>INSTAGRAM</a></li>
-                                    <li class="social-linkedin"><a style="text-decoration: none; color:#365aa3" href=""><i
+                                    <li class="social-linkedin"><a style="text-decoration: none; color:#365aa3" href="www.linkedin.com/in/gvac-opc-private-limited-5617983a8"><i
                                                 class="fab fa-linkedin m-2"></i>LINKEDIN</a></li>
                                 </ul>
                             </div>
