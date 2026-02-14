@@ -41,7 +41,7 @@
                                                 class="fab fa-facebook m-2"> </i>FACEBOOK</a></li>
                                     <li class="social-instagram"><a style="text-decoration: none; color:#365aa3" target="_blank" href="https://www.instagram.com/gvacprivatelimeted?igsh=MWg2c2FwZ2tsd3V1eQ%3D%3D&utm_source=qr"><i
                                                 class="fab fa-instagram m-2"></i>INSTAGRAM</a></li>
-                                    <li class="social-linkedin"><a style="text-decoration: none; color:#365aa3" target="_blank" href="www.linkedin.com/in/gvac-opc-private-limited-5617983a8"><i
+                                    <li class="social-linkedin"><a style="text-decoration: none; color:#365aa3" target="_blank" href="https://www.linkedin.com/in/gvac-opc-private-limited-5617983a8"><i
                                                 class="fab fa-linkedin m-2"></i>LINKEDIN</a></li>
                                 </ul>
                             </div>
